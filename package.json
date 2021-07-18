@@ -1,0 +1,16 @@
+{
+  "name": "video-zoom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify": "uglifyjs --compress --mangle -o main.min.js -- main.js",
+    "release": "npm run minify && node release.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "uglify-js": "^3.13.10"
+  }
+}

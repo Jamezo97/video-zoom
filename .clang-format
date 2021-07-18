@@ -1,0 +1,5 @@
+Language: JavaScript
+ColumnLimit: 160
+AlignConsecutiveDeclarations: true
+AlignConsecutiveAssignments: true
+BreakBeforeBraces: Allman
